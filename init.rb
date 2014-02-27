@@ -1,5 +1,6 @@
 $:.unshift File.expand_path("../vendor/multipart-post/lib", __FILE__)
 
+require "restclient"
 require "heroku/command/base"
 require "net/http/post/multipart"
 require "tmpdir"
